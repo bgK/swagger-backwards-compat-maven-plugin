@@ -1,0 +1,29 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>fr.enedis.six.unit</groupId>
+    <artifactId>project-to-test</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>Test Backwards Compatibility Mojo</name>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>fr.enedis.six</groupId>
+                <artifactId>swagger-backwards-compat-maven-plugin</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <configuration>
+                    <swaggerSourceDir>src/test/resources/unit/swagger</swaggerSourceDir>
+                    <swaggerLockDir>src/test/resources/unit/swagger</swaggerLockDir>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>backwards-compatibility-check</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
