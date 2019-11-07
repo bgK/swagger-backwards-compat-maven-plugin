@@ -27,8 +27,8 @@ public class PropertyTypeChangedRule extends Rule {
         String rightType = getModelType(right);
 
         if (!StringUtils.equals(leftType, rightType)) {
-            addError("Le type a changé dans le nouveau schéma : '"
-                    + rightType + "' contre précédemment '" + leftType + "'.");
+            addError("The type changed in the new spec: '"
+                    + rightType + "' was previously '" + leftType + "'.");
         }
 
         if (left instanceof ModelImpl && right instanceof ModelImpl) {
@@ -36,8 +36,8 @@ public class PropertyTypeChangedRule extends Rule {
             ModelImpl rightModel = (ModelImpl) right;
 
             if (!StringUtils.equals(leftModel.getFormat(), rightModel.getFormat())) {
-                addError("Le format a changé dans le nouveau schéma : '"
-                        + rightModel.getFormat() + "' contre précédemment '" + leftModel.getFormat() + "'.");
+                addError("The format changed in the new spec: '"
+                        + rightModel.getFormat() + "' was previously '" + leftModel.getFormat() + "'.");
             }
         }
     }
