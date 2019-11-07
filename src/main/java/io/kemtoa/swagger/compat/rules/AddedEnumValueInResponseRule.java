@@ -1,4 +1,4 @@
-package fr.enedis.six.swagger.rules;
+package io.kemtoa.swagger.compat.rules;
 
 /**
  * Adding an enum value to a request response is backward incompatible

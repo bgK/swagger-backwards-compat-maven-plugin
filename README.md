@@ -19,7 +19,7 @@ plugin is run.
 <build>
     <plugins>
         <plugin>
-            <groupId>fr.enedis.six</groupId>
+            <groupId>io.kemtoa.swagger</groupId>
             <artifactId>swagger-backwards-compat-maven-plugin</artifactId>
             <version>1.0.0-SNAPSHOT</version>
             <configuration>

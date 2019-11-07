@@ -1,4 +1,4 @@
-package fr.enedis.six.swagger.rules;
+package io.kemtoa.swagger.compat.rules;
 
 import io.swagger.models.HttpMethod;
 import io.swagger.models.Operation;

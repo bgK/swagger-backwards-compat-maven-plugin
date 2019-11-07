@@ -1,4 +1,4 @@
-package fr.enedis.six.swagger;
+package io.kemtoa.swagger.compat;
 
 import static org.hamcrest.CoreMatchers.hasItem;
 import static org.junit.Assert.assertEquals;
@@ -14,15 +14,15 @@ import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 
-import fr.enedis.six.swagger.rules.AddedEnumValueInResponseRule;
-import fr.enedis.six.swagger.rules.AddedRequiredRequestParameterRule;
-import fr.enedis.six.swagger.rules.CompositeRule;
-import fr.enedis.six.swagger.rules.ParameterLocationChangedRule;
-import fr.enedis.six.swagger.rules.PropertyRemovedInResponseRule;
-import fr.enedis.six.swagger.rules.PropertyTypeChangedRule;
-import fr.enedis.six.swagger.rules.RemovedEnumValueInRequestRule;
-import fr.enedis.six.swagger.rules.RemovedOperationRule;
-import fr.enedis.six.swagger.walker.SwaggerDiffWalker;
+import io.kemtoa.swagger.compat.rules.AddedEnumValueInResponseRule;
+import io.kemtoa.swagger.compat.rules.AddedRequiredRequestParameterRule;
+import io.kemtoa.swagger.compat.rules.CompositeRule;
+import io.kemtoa.swagger.compat.rules.ParameterLocationChangedRule;
+import io.kemtoa.swagger.compat.rules.PropertyRemovedInResponseRule;
+import io.kemtoa.swagger.compat.rules.PropertyTypeChangedRule;
+import io.kemtoa.swagger.compat.rules.RemovedEnumValueInRequestRule;
+import io.kemtoa.swagger.compat.rules.RemovedOperationRule;
+import io.kemtoa.swagger.compat.walker.SwaggerDiffWalker;
 import io.swagger.models.Swagger;
 import io.swagger.parser.SwaggerParser;
 

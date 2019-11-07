@@ -1,4 +1,4 @@
-package fr.enedis.six.swagger.walker;
+package io.kemtoa.swagger.compat.walker;
 
 import io.swagger.models.HttpMethod;
 import io.swagger.models.Model;

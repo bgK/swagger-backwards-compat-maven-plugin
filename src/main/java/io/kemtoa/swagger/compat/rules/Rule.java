@@ -1,10 +1,10 @@
-package fr.enedis.six.swagger.rules;
+package io.kemtoa.swagger.compat.rules;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import fr.enedis.six.swagger.walker.Location;
-import fr.enedis.six.swagger.walker.SwaggerDiffVisitor;
+import io.kemtoa.swagger.compat.walker.Location;
+import io.kemtoa.swagger.compat.walker.SwaggerDiffVisitor;
 
 /**
  * Base class for the backwards compatibility check rules

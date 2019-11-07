@@ -1,4 +1,4 @@
-package fr.enedis.six.swagger;
+package io.kemtoa.swagger.compat;
 
 import java.io.File;
 import java.io.FileInputStream;

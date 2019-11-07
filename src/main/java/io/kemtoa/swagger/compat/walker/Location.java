@@ -1,4 +1,4 @@
-package fr.enedis.six.swagger.walker;
+package io.kemtoa.swagger.compat.walker;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

@@ -1,4 +1,4 @@
-package fr.enedis.six.swagger.rules;
+package io.kemtoa.swagger.compat.rules;
 
 /**
  * Removing an enum value from a request parameter is backward incompatible

@@ -1,4 +1,4 @@
-package fr.enedis.six.swagger.rules;
+package io.kemtoa.swagger.compat.rules;
 
 import org.apache.commons.lang3.StringUtils;
 

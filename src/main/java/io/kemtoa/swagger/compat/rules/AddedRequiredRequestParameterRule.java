@@ -1,4 +1,4 @@
-package fr.enedis.six.swagger.rules;
+package io.kemtoa.swagger.compat.rules;
 
 import io.swagger.models.parameters.Parameter;
 import io.swagger.models.properties.Property;

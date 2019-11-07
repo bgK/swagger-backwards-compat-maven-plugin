@@ -1,10 +1,10 @@
-package fr.enedis.six.swagger.rules;
+package io.kemtoa.swagger.compat.rules;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import fr.enedis.six.swagger.walker.Location;
+import io.kemtoa.swagger.compat.walker.Location;
 import io.swagger.models.HttpMethod;
 import io.swagger.models.Model;
 import io.swagger.models.Operation;
