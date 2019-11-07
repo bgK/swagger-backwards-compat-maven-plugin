@@ -5,7 +5,7 @@
   <groupId>io.kemtoa.swagger</groupId>
   <artifactId>swagger-backwards-compat-maven-plugin</artifactId>
   <packaging>maven-plugin</packaging>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
 
   <name>Swagger Backwards Compatibility Maven Plugin</name>
   <description>A Maven plugin for analyzing Swagger API Specs backwards compatible changes.</description>
