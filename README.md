@@ -21,7 +21,7 @@ plugin is run.
         <plugin>
             <groupId>io.kemtoa.swagger</groupId>
             <artifactId>swagger-backwards-compat-maven-plugin</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.0</version>
             <configuration>
                 <!-- Optional alternate .json Swagger spec location -->
                 <swaggerSourceDir>${basedir}/src/main/swagger</swaggerSourceDir>
