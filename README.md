@@ -2,7 +2,7 @@
 
 The <code>swagger-backwards-compat</code> plugin is a Maven plugin to
 run a backwards compatibility check on a set of Swagger API 2.0 JSON specification
-files. The plugin can be integrated into various phases of a maven build to check 
+files. The plugin can be integrated into various phases of a maven build to check
 that any changes to a set of Swagger .json files are backwards compatible.
 This ensures that these changes do not impact existing users that haven't had a
 chance to update to these latest changes. .lock files are created to keep
@@ -47,11 +47,11 @@ The following rules are enforced when checking for backwards incompatible change
     Clients using the old spec may rely on it being present and fail with
     the new implementation.
 
-* **PropertyTypeChangedRule**: The type of a property was change.
+* **PropertyTypeChangedRule**: The type of a property was changed.
 
     Clients using the old spec may fail to interpret the new type. This rule triggers
-    on all type changes. There is no such thing as a backwards compatible types at
-    the moment.
+    on all type changes. There is no such thing as backwards compatible types at the
+    moment.
 
 * **AddedRequiredRequestParameterRule**: A new required parameter was added to a request.
 
